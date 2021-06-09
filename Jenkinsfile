@@ -12,5 +12,10 @@ pipeline{
                 sh 'echo helloworld'
             }
         }
+        stage('new'){
+            steps{
+                sh 'echo new'
+            }
+        }
     }
 }
